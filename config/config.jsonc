@@ -1,0 +1,97 @@
+{
+	"clientId": "1240299305059749889", 
+	"guildId": "1239843372320161833", 
+	"mainColor": "#f6c42f", 
+	"lang": "main", 
+
+	"openTicketChannelId": "1239843372810637353", 
+
+	"ticketTypes": [
+		{
+			"codeName": "speclist", 
+			"name": "Computer Spec", 
+			"description": "Choose This Option For Purchasing Computer Or To Get Speclist  ", 
+			"emoji": "🖥️", 
+			"color": "", 
+			"categoryId": "1239843372810637352", 
+			"ticketNameOption": "🖥️SPEC-USERNAME", 
+			"customDescription": "", // parameter: USERNAME, USERID, TICKETCOUNT, REASON1, 2,
+			"cantAccess": ["1239853124366241822"], 
+			"askQuestions": true, 
+			"questions": [
+				{
+					"label": "Name:",
+					"placeholder": "Please Enter Your *NAME* To Continue",
+					"style": "SHORT", // SHORT or PARAGRAPH
+					"maxLength": 20
+				},
+				{
+					"label": "Phone No :",
+					"placeholder": "Please Enter Your *PHONE NO* To Continue",
+					"style": "SHORT", // SHORT or PARAGRAPH
+					"maxLength": 10
+				},
+				{
+					"label": "Email :",
+					"placeholder": "Please Enter Your *EMAIL ID* To Continue",
+					"style": "SHORT", // SHORT or PARAGRAPH
+					"maxLength": 20
+				}
+			], 
+			"staffRoles": [] // Category specific staff role (instead of the default ones)
+		},
+		
+		{
+			"codeName": "other", 
+			"name": "Support", 
+			"description": "Choose This Option For Creating Support Section ", 
+			"emoji": "🛠️", 
+			"color": "", 
+			"categoryId": "1239843372810637352", 
+			"ticketNameOption": "🖥️SUPPORT-USERNAME", 
+			"customDescription": "", // parameter: USERNAME, USERID, TICKETCOUNT, REASON1, 2,
+			"cantAccess": ["1239853124366241822"], 
+			"askQuestions": false, 
+			"questions": [], 
+			"staffRoles": [] 
+		}
+	],
+	"ticketNameOption": "Ticket-USERNAME", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
+
+	// Ticket Claim Options
+	"claimOption": {
+		"claimButton": false, 
+		"nameWhenClaimed": "✔️ Ticket-TICKETCOUNT", // Here is all parameter: X_USERNAME, X_USERID, TICKETCOUNT
+		"categoryWhenClaimed": "" 
+	},
+
+	"rolesWhoHaveAccessToTheTickets": ["1242432442724384798"], 
+	"rolesWhoCanNotCreateTickets": [], 
+	"pingRoleWhenOpened": true,
+	"roleToPingWhenOpenedId": ["1242432442724384798"], 
+
+	"logs": true,
+	"logsChannelId": "1239843372810637354", 
+	
+	"closeOption": {
+		"closeButton": true, // If false the ticket can be closed only by doing /closes
+		"dmUser": false, 
+		"createTranscript": false, 
+		"askReason": true, // If false the ticket will be closed without asking the reason
+		"whoCanCloseTicket": "STAFFONLY", 
+		"closeTicketCategoryId": "" 
+	},
+	"uuidType": "uuid", // uuid or emoji
+
+	"status": {
+		"enabled": true, 
+		"text": "github.com/Sayrix", 
+		"type": "PLAYING", // PLAYING, WATCHING, LISTENING, STREAMING, COMPETING
+		"url": "", // type is STREAMING 
+		"status": "online" 
+	},
+
+	"maxTicketOpened": 0, 
+	"minimalTracking": false,
+	"showWSLog": false
+}

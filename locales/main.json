@@ -1,0 +1,78 @@
+{
+	"embeds": {
+		"openTicket": {
+			"title": "GBZ_HELPER™ \n",
+			"description": "***\nClick on the button below to create ticket you wish to open\n\t\n-> Computer Spec : Choose This Option For Purchasing Computer Or To Get Speclist \n\t-> Support : Choose This Option For Creating Support/Doubts Section \n\n\n\tNOTE : Creating unwanted tickets & inresponding in ticket leads to time out and temp.ban from server.***",
+			"footer": {
+				"text": ""
+			},
+			"image": {
+				"url": "https://cdn.discordapp.com/attachments/1091282101598441503/1246780108522655794/Click_the_Button_Below_To_Create_Ticket.png?ex=665da1f5&is=665c5075&hm=ec0657cf8837bd7d9b46f4532182c4e32f27a624b796a66c81cb7c13836b28d6&" 
+			}
+		},
+		"ticketOpened": {
+			"title": "Ticket CATEGORYNAME",
+			"description": "A staff will reply you as soon as possible!",
+			"footer": {
+				"text": "ticket.pm"
+			}
+		},
+		"ticketClosed": {
+			"title": "Ticket closed",
+			"description": "The ticket has been closed by CLOSERNAME with the following reason: `REASON`"
+		},
+		"ticketClosedDM": {
+			"title": "Ticket closed",
+			"description": "The ticket n°TICKETCOUNT has been closed by CLOSERNAME with the following reason: `REASON`",
+			"footer": {
+				"text": "ticket.pm"
+			}
+		}
+	},
+	"modals": {
+		"reasonTicketOpen": {
+			"title": "Open ticket",
+			"label": "Your Details",
+			"placeholder": "Please enter your details to continue",
+			"logo": "https://media.discordapp.net/attachments/1242042098731974706/1246766690457354410/X_logo_2023.svg.png?ex=665d9576&is=665c43f6&hm=edbf972d01fd54b19ee049d3bea04b904caf05e94d5ce55cb667e27a5eeae7ba&=&format=webp&quality=lossless"
+		},
+		"reasonTicketClose": {
+			"title": "Close ticket",
+			"label": "The reason of the ticket closure",
+			"placeholder": "Please enter the reason of why you are closing the ticket",
+			"logo": "https://media.discordapp.net/attachments/1242042098731974706/1246766690457354410/X_logo_2023.svg.png?ex=665d9576&is=665c43f6&hm=edbf972d01fd54b19ee049d3bea04b904caf05e94d5ce55cb667e27a5eeae7ba&=&format=webp&quality=lossless"
+		}
+	},
+	"buttons": {
+		"close": {
+			"label": "Close ticket",
+			"emoji": "❌"
+		},
+		"claim": {
+			"label": "Claim",
+			"emoji": "🛄"
+		}
+	},
+	"invalidConfig": "Invalid configuration detected, please ask the bot operator to fix it!",
+	"ticketOpenedMessage": "Ticket opened! TICKETCHANNEL",
+	"ticketOnlyClaimableByStaff": "The ticket can only be claimed by a staff!",
+	"ticketAlreadyClaimed": "The ticket is already claimed!",
+	"ticketClaimedMessage": "> Ticket claimed by USER",
+	"ticketOnlyClosableByStaff": "Only staff can close the ticket!",
+	"ticketAlreadyClosed": "The ticket is already closed!",
+	"ticketCreatingTranscript": "> Creating transcript...",
+	"ticketTranscriptCreated": "> Transcript created! TRANSCRIPTURL",
+	"ticketOnlyRenamableByStaff": "Only staff can rename tickets!",
+	"ticketRenamed": "> Ticket renamed to NEWNAME",
+	"ticketLimitReached": "You can only have TICKETLIMIT tickets opened at the same time!",
+	"noTickets": "You don't have access to any tickets",
+
+	"other": {
+		"openTicketButtonMSG": "Open a ticket",
+		"deleteTicketButtonMSG": "Delete ticket",
+		"selectTicketTypePlaceholder": "Select a ticket type",
+		"claimedBy": "**Claimed By**: USER",
+		"noReasonGiven": "No reason given",
+		"unavailable": "Unavailable"
+	}
+}
